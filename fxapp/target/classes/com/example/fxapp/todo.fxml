@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="308.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxapp.Todo">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="314.0" prefWidth="164.0" style="-fx-background-color: #006 #6495ED400;">
+         <children>
+            <Text fill="WHITE" layoutX="28.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To-Do List" wrappingWidth="108.376953125">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="22.0" />
+               </font>
+            </Text>
+            <Button fx:id="t1" layoutX="27.0" layoutY="93.0" mnemonicParsing="false" onAction="#t1Action" prefHeight="25.0" prefWidth="108.0" text="Task 1" />
+            <Button fx:id="t2" layoutX="28.0" layoutY="126.0" mnemonicParsing="false" onAction="#t2Action" prefHeight="25.0" prefWidth="108.0" text="Task 2" />
+            <Button fx:id="t3" layoutX="27.0" layoutY="163.0" mnemonicParsing="false" onAction="#t3Action" prefHeight="25.0" prefWidth="108.0" text="Task 3" />
+            <Button fx:id="t4" layoutX="27.0" layoutY="201.0" mnemonicParsing="false" onAction="#t4Action" prefHeight="25.0" prefWidth="108.0" text="Task 4" />
+            <Button fx:id="t5" layoutX="27.0" layoutY="236.0" mnemonicParsing="false" onAction="#t5Action" prefHeight="25.0" prefWidth="108.0" text="Task 5" />
+            <Button fx:id="back" layoutX="14.0" layoutY="275.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+         </children>
+      </AnchorPane>
+      <Text fx:id="title" fill="#001ba1" layoutX="178.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Task Description" wrappingWidth="138.376953125">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="taskArea" layoutX="165.0" layoutY="71.0" prefHeight="193.0" prefWidth="362.0" />
+      <Text fx:id="head" fill="#5b4444" layoutX="361.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deadline" wrappingWidth="138.376953125">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="done" layoutX="465.0" layoutY="274.0" mnemonicParsing="false" onAction="#doneAction" text="DONE" />
+      <Label fx:id="deadline" layoutX="361.0" layoutY="47.0" prefHeight="17.0" prefWidth="79.0" textFill="#f20000" />
+   </children>
+</AnchorPane>

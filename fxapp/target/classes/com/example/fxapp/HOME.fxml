@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="566.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxapp.HOMECONTROLLER">
+   <children>
+      <AnchorPane prefHeight="64.0" prefWidth="745.0" style="-fx-background-color: #688ebd;">
+         <children>
+            <ImageView fitHeight="55.0" fitWidth="150.0" layoutX="180.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@33308.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="260.0" layoutY="11.0" text="FLOWSTREAM " textFill="#0c051e">
+               <font>
+                  <Font name="Bauhaus 93" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="closeENterPAGE" layoutX="616.0" layoutY="20.0" mnemonicParsing="false" onAction="#CLOSEPAGE" prefHeight="25.0" prefWidth="68.0">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@close1437.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="64.0" prefHeight="537.0" prefWidth="142.0" style="-fx-background-color: #688ebd;">
+         <children>
+            <Button fx:id="LOGOUTENTERPAGE" layoutX="12.0" layoutY="478.0" mnemonicParsing="false" onAction="#OpenLOGINPAGE" text="LOGOUT">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@1723673.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="EMPLOYYEENTERPAGE" layoutX="13.0" layoutY="189.0" mnemonicParsing="false" onAction="#OpenEmployeePage" text="EMPLOYEE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@666201.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="MEETINGSENTERPAGE" layoutX="13.0" layoutY="240.0" mnemonicParsing="false" onAction="#OpenMeetingsPage" prefHeight="29.0" prefWidth="115.0" text="MEETINGS">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@33308.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="applications" layoutX="2.0" layoutY="297.0" mnemonicParsing="false" onAction="#applicationAction" text="APPLICATIONS">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@666201.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="EMPLOYYEENTERPAGE1" layoutX="28.0" layoutY="345.0" mnemonicParsing="false" onAction="#taskAction" text="TASKS">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@666201.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="480.0" fitWidth="653.0" layoutX="145.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@62196607bf1b469a40301f1e_60a802dbda7a9006a69823d8_management20agenda20examples.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
